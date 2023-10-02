@@ -323,7 +323,7 @@ func (it *results) stop(err error) {
 	if !it.running {
 		return
 	}
-	it.s.vm.Interrupt(err)
+	//it.s.vm.Interrupt(err)
 	it.running = false
 }
 
